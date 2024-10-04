@@ -32,7 +32,10 @@ export default defineConfig({
     trace: 'on-first-retry',
 
     //test Id configuration
-     testIdAttribute: 'data-test'
+     testIdAttribute: 'data-test',
+
+     //open the browser when run the script
+     headless: false
   },
 
   /* Configure projects for major browsers */

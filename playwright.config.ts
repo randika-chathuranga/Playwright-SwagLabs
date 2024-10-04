@@ -33,9 +33,6 @@ export default defineConfig({
 
     //test Id configuration
      testIdAttribute: 'data-test',
-
-     //open the browser when run the script
-     headless: false
   },
 
   /* Configure projects for major browsers */
